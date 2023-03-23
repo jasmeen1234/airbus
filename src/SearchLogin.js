@@ -25,6 +25,7 @@ const SearchLogin = () => {
       .catch(error => console.log(error))
 
     console.log(flights)
+    // eslint-disable-next-line
   }, [])
 
   const searchHandel = () => {

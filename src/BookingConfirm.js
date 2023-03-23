@@ -10,6 +10,7 @@ const BookingConfirm = () => {
           console.log("Already Login")
           navigate("/Search")
         };
+        // eslint-disable-next-line
       },[])
     return (
         <div className='thanks-container'>
