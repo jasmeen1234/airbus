@@ -18,6 +18,7 @@ const Payment = () => {
           console.log("Already Login")
           navigate("/")
         };
+        // eslint-disable-next-line
       },[])
 
     const paymentHandler=()=> {
