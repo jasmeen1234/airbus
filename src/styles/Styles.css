@@ -1,0 +1,13 @@
+.home{
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fgreenery%2F&psig=AOvVaw0TrN5Djwzr2UwxXp5mVBlx&ust=1679652375201000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIjy0Onm8f0CFQAAAAAdAAAAABAE");
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

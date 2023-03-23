@@ -1,0 +1,27 @@
+.thanks-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #1ce48480;
+    gap: 15px;
+}
+.thanks-container h3{
+    color: #e11019;
+    font-style: italic;
+}
+.thanks-container h2{
+    color: #0e0aed;
+    font-family: 'Courier New', Courier, monospace;
+}
+.thanks-container button{
+    border-radius: 10px;
+    background-color: #4914c9;
+    color: aliceblue;
+    font-weight: 600;
+}
+.thanks-container button:hover{
+    background-color: #e11019;
+}
+

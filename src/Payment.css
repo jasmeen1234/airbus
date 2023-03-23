@@ -1,0 +1,70 @@
+.payment-page-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 400px; */
+    /* width: 60%; */
+    background-color: rgba(245, 245, 245, 0.726);
+    border-radius: 10px;
+}
+.payment-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    gap: 10px;
+}
+.payment-page h3{
+    font-size: 30px;
+    font-weight: 600px;
+    font-style: italic;
+    color: #4914c9;
+
+}
+.payment-page h2{
+    font-size: 30px;
+    font-style: oblique;
+    /* font-weight: 900; */
+    color:#4914c9;
+}
+.payment-page form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payment-page form input{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    outline: none;
+}
+.payment-page form div input{
+    /* height: 20px; */
+    width: 60px;
+    margin: 10px;
+}
+.payment-page form button{
+    border-radius: 10px;
+    background-color:#4914c9;
+    color: aliceblue;
+    font-weight: 600;
+}
+.payment-page form button:hover{
+    background-color: #4914c9;
+
+}
+.backButton{
+    border-radius: 10px;
+    background-color: #be10e1;
+    color: aliceblue;
+    font-weight: 600;
+    /* width: 60px; */
+}
+.backButton:hover{
+    background-color: #c9144a;
+
+}
