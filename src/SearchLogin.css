@@ -25,11 +25,11 @@
     border-radius: 8px;
 }
 .search button:hover{
-    background-color: green;
+    background-color:yellow;
     color: white;
 }
 .search-container h3{
-    color: rgb(214, 9, 9);
+    color:yellow;
     font-size: 40px;
 }
 .f-holder{

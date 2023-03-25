@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './Header.css'
-
-import Button from 'react-bootstrap/Button';
 import LogoR from './assets/plane.jpg'
-import { Link } from 'react-router-dom'
-import Navbar from 'react-bootstrap/Navbar';
+import {Link} from 'react-router-dom'
+import Button from 'react-bootstrap/Button';
+
+
 
 
 
@@ -26,27 +26,33 @@ function Header() {
     window.location.reload(false);
   }
   return (
-    <div className='header'>
-        <div className='img-contain'>
-          <Link to="/">
-        <img src={LogoR} alt='airplane logo' className='logoimg'/>
-        </Link>
-        <h1 className='logo-header'>Airbus</h1>
-        </div>
-        <div className='navbar'>
-            <ul>
+    
+        
+       <div className='header'>
+<div className='img-contain'>
+            <Link to="/">
+              <img src={LogoR} alt='airbus logo' className='logoimg'/>
+              </Link>
+              <h1 className='logo-header'>Airbus</h1>
+              </div>
+              <div className='navbar'>
+                <ul>
+                  <li>Home</li>
+                  <li>Tickets</li>
+                </ul>
+                </div>
+              <Button  onClick={logout}>{login?Logout:Login}</Button>
               
-                
-                
+         
+              </div>
                 
                
-                <Navbar.Collapse id="navbarScroll">
-                <Button variant="outline-success" onClick={logout}>{login?Logout:Login}</Button>
-                </Navbar.Collapse>
-            </ul>
-        </div>
-    </div>
-  )
+               
+            
+       
+   
+
+  );
 }
 
 export default Header

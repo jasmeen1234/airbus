@@ -8,13 +8,13 @@
     gap:20px;
 }
 .login-container h1{
-    color: forestgreen;
+    color:yellow;
     font-size: 60px;
     font-weight: 900;
     font-style: italic;
 }
 .login-container h3{
-    color:forestgreen;
+    color:black;
     font-style: italic;
 }
 .login-container button{
