@@ -1,10 +1,10 @@
 
 import  React from "react";
-// import {  Routes, Route } from "react-router-dom";
+
 import './App.css';
 import Header from './Header';
 // import {useNavigate} from 'react-router-dom';
-// import "./styles/Styles.css"
+import "./styles/Styles.css"
 import SearchLogin from './SearchLogin';
 import Login from './Login'
 import Payment from './Payment'
